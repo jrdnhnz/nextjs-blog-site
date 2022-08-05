@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'GLHF <3';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'Made with Love by JrdnHnz.';
 
   return {
     name,
